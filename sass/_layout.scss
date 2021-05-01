@@ -37,6 +37,26 @@
     height: 80rem;
 }
 
+.detail {
+    display: flex;
+    padding: 4.5rem;
+    background-color: var(--color-grey-light-1);
+    border-bottom: var(--line);
+}
 
+.description {
+    background-color: red;
+    // This will going to occupy the 60% of the box
+    flex: 0 0 60%;
+    margin-right: 4.5rem;
+    padding: 3rem;
+    box-shadow: 0 2rem 5rem rgba(0,0,0,.06);
+}
+
+.user-reviews {
+    background-color: yellowgreen;
+    // This will going to occupy 40% which is the remaining space 
+    flex: 1;
+}
 
 
